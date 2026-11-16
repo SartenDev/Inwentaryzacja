@@ -1,11 +1,11 @@
-
 import platform
 import socket
 import subprocess
 import os
 import json
 import sys
-
+import csv
+import plistlib
 from pathlib import Path
 from datetime import datetime, timezone
 
@@ -62,27 +62,37 @@ def windows():
                     continue
         except OSError:
             continue
-
     return apps
 
 
 def macOS():
+    import plistlib
+
     apps = []
     directories = [
         Path("/Applications"),
-        Path("/System/Applications")
+        Path("/Applications/Utilities"),
+        Path("/System/Applications"),
+        Path.home() / "Applications",
     ]
 
     for directory in directories:
-        if directory.exists():
-            for app in directory.glob("*.app"):
-                apps.append({
-                    "name": app.stem,
-                    "version": ""
-                })
-
+        if not directory.is_dir():
+            continue
+        for app in directory.glob("*.app"):
+            version = ""
+            try:
+                with open(app / "Contents" / "Info.plist", "rb") as f:
+                    info = plistlib.load(f)
+                version = str(
+                    info.get("CFBundleShortVersionString")
+                    or info.get("CFBundleVersion")
+                    or ""
+                )
+            except Exception:
+                pass
+            apps.append({"name": app.stem, "version": version})
     return apps
-
 
 def linux():
     apps = []
@@ -115,9 +125,7 @@ def linux():
                         "name": parts[0],
                         "version": parts[1]
                     })
-
     return apps
-
 
 def applications():
     system = platform.system()
@@ -146,9 +154,21 @@ if __name__ == "__main__":
     else:
         output_dir = Path(__file__).parent
 
-    output_file = output_dir / "data.json"
+    output_file_json = output_dir / "data.json"
+    output_file_csv = output_dir / "data.csv"
+    with open(output_file_csv, "w", newline="", encoding="utf-8") as f:
+        w = csv.writer(f, delimiter=',')
+        for item in raport:
+            if item == "applications":
+                w.writerow("")
+                w.writerow(["NAME", "VERSION"])
+                for app in raport[item]:
+                    w.writerow([app["name"], app["version"]])
+            else:
+                w.writerow([item, raport[item]])
 
-    with open(output_file, "w", encoding="utf-8") as f:
+
+    with open(output_file_json, "w", encoding="utf-8") as f:
         json.dump(raport, f, indent=4, ensure_ascii=False)
 
 
