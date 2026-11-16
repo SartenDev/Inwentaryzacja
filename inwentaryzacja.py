@@ -149,3 +149,5 @@ if __name__ == "__main__":
 
     with open(output_file, "w", encoding="utf-8") as f:
         json.dump(raport, f, indent=4, ensure_ascii=False)
+
+
