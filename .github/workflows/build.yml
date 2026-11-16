@@ -5,8 +5,10 @@ on:
   push:
     branches: [main]
     tags: ["v*"]
-
   workflow_dispatch:
+
+permissions:
+  contents: write
 
 jobs:
   build:
@@ -57,3 +59,24 @@ jobs:
         with:
           name: inwentaryzacja-linux
           path: dist/inwentaryzacja
+
+  release:
+    name: Publish GitHub Release
+    needs: build
+    runs-on: ubuntu-latest
+    if: startsWith(github.ref, 'refs/tags/v')
+
+    steps:
+      - name: Download all artifacts
+        uses: actions/download-artifact@v4
+        with:
+          path: release-files
+
+      - name: Publish Release
+        uses: softprops/action-gh-release@v2
+        with:
+          files: |
+            release-files/inwentaryzacja-windows/inwentaryzacja.exe
+            release-files/inwentaryzacja-macos/inwentaryzacja
+            release-files/inwentaryzacja-linux/inwentaryzacja
+          generate_release_notes: true
