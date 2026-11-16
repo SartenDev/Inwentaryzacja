@@ -1,0 +1,93 @@
+
+name: Build Application Inventory
+
+on:
+  push:
+    branches: [main]
+    tags: ["v*"]
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+jobs:
+  build:
+    name: Build for ${{ matrix.os }}
+
+    strategy:
+      fail-fast: false
+      matrix:
+        os:
+          - windows-latest
+          - ubuntu-latest
+          - macos-latest
+
+    runs-on: ${{ matrix.os }}
+
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+
+      - name: Setup Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+
+      - name: Install PyInstaller
+        run: python -m pip install --upgrade pyinstaller
+
+      - name: Build executable
+        run: python -m PyInstaller --clean --noconfirm --onefile --name inwentaryzacja inwentaryzacja.py
+
+      - name: Upload Windows executable
+        if: runner.os == 'Windows'
+        uses: actions/upload-artifact@v4
+        with:
+          name: inwentaryzacja-windows
+          path: dist/inwentaryzacja.exe
+
+      - name: Upload macOS executable
+        if: runner.os == 'macOS'
+        uses: actions/upload-artifact@v4
+        with:
+          name: inwentaryzacja-macos
+          path: dist/inwentaryzacja
+
+      - name: Upload Linux executable
+        if: runner.os == 'Linux'
+        uses: actions/upload-artifact@v4
+        with:
+          name: inwentaryzacja-linux
+          path: dist/inwentaryzacja
+  release:
+    name: Publish GitHub Release
+    needs: build
+    runs-on: ubuntu-latest
+    if: startsWith(github.ref, 'refs/tags/v')
+    permissions:
+      contents: write
+      actions: read
+
+    steps:
+      - name: Download all artifacts
+        uses: actions/download-artifact@v4
+        with:
+          path: release-files
+
+      - name: Show downloaded files
+        run: ls -R release-files
+
+      - name: Publish Release
+        uses: softprops/action-gh-release@v2
+        with:
+          token: ${{ secrets.GITHUB_TOKEN }}
+          tag_name: ${{ github.ref_name }}
+          name: Inwentaryzacja ${{ github.ref_name }}
+          files: |
+            release-files/inwentaryzacja-windows/inwentaryzacja.exe
+            release-files/inwentaryzacja-macos/inwentaryzacja
+            release-files/inwentaryzacja-linux/inwentaryzacja
+          generate_release_notes: true
+          fail_on_unmatched_files: true
+
+
