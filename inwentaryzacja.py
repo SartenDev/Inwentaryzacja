@@ -5,7 +5,7 @@ import subprocess
 import os
 import json
 import sys
-import winreg
+
 from pathlib import Path
 from datetime import datetime, timezone
 
@@ -23,6 +23,7 @@ def run(command):
 
 
 def windows():
+    import winreg
     apps = []
     paths = [
         (winreg.HKEY_LOCAL_MACHINE,
