@@ -1,0 +1,1376 @@
+{
+    "device": "DESKTOP-VGTAR2F",
+    "os": "Windows",
+    "os_version": "10.0.22631",
+    "timestamp": "2026-11-16T10:15:24.382382+00:00",
+    "applications": [
+        {
+            "name": "Docker Desktop",
+            "version": "4.27.2"
+        },
+        {
+            "name": "Git",
+            "version": "2.44.0"
+        },
+        {
+            "name": "Intel(R) Graphics Software & Drivers",
+            "version": "1.0.1168.2"
+        },
+        {
+            "name": "Microsoft SQL Server 2022 (64-bit)",
+            "version": ""
+        },
+        {
+            "name": "Microsoft SQL Server 2022 (64-bit)",
+            "version": ""
+        },
+        {
+            "name": "Microsoft 365 - cs-cz",
+            "version": "16.0.20131.20090"
+        },
+        {
+            "name": "Microsoft 365 - en-us",
+            "version": "16.0.20131.20090"
+        },
+        {
+            "name": "Microsoft 365 - hu-hu",
+            "version": "16.0.20131.20090"
+        },
+        {
+            "name": "Microsoft 365 - pl-pl",
+            "version": "16.0.20131.20090"
+        },
+        {
+            "name": "Microsoft 365 - sk-sk",
+            "version": "16.0.20131.20090"
+        },
+        {
+            "name": "Microsoft OneNote - cs-cz",
+            "version": "16.0.20131.20090"
+        },
+        {
+            "name": "Microsoft OneNote - en-us",
+            "version": "16.0.20131.20090"
+        },
+        {
+            "name": "Microsoft OneNote - hu-hu",
+            "version": "16.0.20131.20090"
+        },
+        {
+            "name": "Microsoft OneNote - pl-pl",
+            "version": "16.0.20131.20090"
+        },
+        {
+            "name": "Microsoft OneNote - sk-sk",
+            "version": "16.0.20131.20090"
+        },
+        {
+            "name": "Microsoft ASP.NET Core 8.0.1 Targeting Pack (x64)",
+            "version": "8.0.1.23580"
+        },
+        {
+            "name": "Microsoft .NET Host - 9.0.7 (x64)",
+            "version": "72.28.35968"
+        },
+        {
+            "name": "Microsoft Windows Desktop Runtime - 10.0.11 (x64)",
+            "version": "80.44.56884"
+        },
+        {
+            "name": "Python 3.11.7 Standard Library (64-bit)",
+            "version": "3.11.7150.0"
+        },
+        {
+            "name": "IIS Express Application Compatibility Database for x64",
+            "version": ""
+        },
+        {
+            "name": "Microsoft ASP.NET Core 8.0.1 Shared Framework (x64)",
+            "version": "8.0.1.23580"
+        },
+        {
+            "name": "Python 3.12.0 Test Suite (64-bit)",
+            "version": "3.12.150.0"
+        },
+        {
+            "name": "RealVNC Server 7.16.0",
+            "version": "7.16.0.14"
+        },
+        {
+            "name": "Microsoft .NET Runtime - 10.0.11 (x64)",
+            "version": "80.44.56884"
+        },
+        {
+            "name": "SQL Server 2022 SQL Diagnostics",
+            "version": "16.0.1000.6"
+        },
+        {
+            "name": "Microsoft.NET.Sdk.Maui.Manifest-8.0.100 (x64)",
+            "version": "8.0.3"
+        },
+        {
+            "name": "SQL Server 2022 Shared Management Objects",
+            "version": "16.0.1000.6"
+        },
+        {
+            "name": "Dell Optimizer",
+            "version": "4.1.1103.0"
+        },
+        {
+            "name": "Python 3.12.0 Standard Library (64-bit)",
+            "version": "3.12.150.0"
+        },
+        {
+            "name": "SQL Server 2022 Database Engine Shared",
+            "version": "16.0.1000.6"
+        },
+        {
+            "name": "Python 3.11.7 Executables (64-bit)",
+            "version": "3.11.7150.0"
+        },
+        {
+            "name": "Microsoft .NET Runtime - 8.0.1 (x64)",
+            "version": "64.4.5793"
+        },
+        {
+            "name": "Microsoft.NET.Sdk.iOS.Manifest-8.0.100 (x64)",
+            "version": "17.2.8004"
+        },
+        {
+            "name": "Microsoft .NET Runtime - 9.0.7 (x64)",
+            "version": "72.28.35968"
+        },
+        {
+            "name": "Microsoft .NET Host FX Resolver - 9.0.7 (x64)",
+            "version": "72.28.35968"
+        },
+        {
+            "name": "Microsoft .NET Runtime - 8.0.12 (x64)",
+            "version": "64.48.26165"
+        },
+        {
+            "name": "Microsoft .NET Host FX Resolver - 10.0.11 (x64)",
+            "version": "80.44.56884"
+        },
+        {
+            "name": "Python 3.12.0 Development Libraries (64-bit)",
+            "version": "3.12.150.0"
+        },
+        {
+            "name": "Microsoft .NET Targeting Pack - 8.0.1 (x64)",
+            "version": "64.4.5793"
+        },
+        {
+            "name": "Cirrus High Definition Audio Driver Setup",
+            "version": "2.2.62"
+        },
+        {
+            "name": "Python 3.12.0 pip Bootstrap (64-bit)",
+            "version": "3.12.150.0"
+        },
+        {
+            "name": "Microsoft .NET SDK 8.0.101 (x64) from Visual Studio",
+            "version": "8.1.123.58017"
+        },
+        {
+            "name": "Microsoft .NET AppHost Pack - 8.0.1 (x64_arm64)",
+            "version": "64.4.5793"
+        },
+        {
+            "name": "MyDell Components Installer",
+            "version": "3.1.120.1"
+        },
+        {
+            "name": "Microsoft.NET.Sdk.tvOS.Manifest-8.0.100 (x64)",
+            "version": "17.2.8004"
+        },
+        {
+            "name": "Microsoft Windows Desktop Targeting Pack - 8.0.1 (x64)",
+            "version": "64.4.5797"
+        },
+        {
+            "name": "Microsoft .NET 8.0 Templates 8.0.101 (x64)",
+            "version": "32.6.64801"
+        },
+        {
+            "name": "SQL Server 2022 Shared Management Objects Extensions",
+            "version": "16.0.1000.6"
+        },
+        {
+            "name": "Microsoft SQL Server 2019 LocalDB ",
+            "version": "15.0.4153.1"
+        },
+        {
+            "name": "Dell SupportAssist Remediation",
+            "version": "5.5.10.19019"
+        },
+        {
+            "name": "vs_devenx64vmsi",
+            "version": "17.8.34129"
+        },
+        {
+            "name": "Microsoft.NET.Workload.Emscripten.net6.Manifest (x64)",
+            "version": "64.4.5649"
+        },
+        {
+            "name": "Microsoft Command Line Utilities 15 for SQL Server",
+            "version": "15.0.1300.359"
+        },
+        {
+            "name": "Microsoft Visual C++ 2022 X64 Minimum Runtime - 14.44.35211",
+            "version": "14.44.35211"
+        },
+        {
+            "name": "Microsoft Windows Desktop Runtime - 6.0.28 (x64)",
+            "version": "48.112.10435"
+        },
+        {
+            "name": "Python 3.11.7 Test Suite (64-bit)",
+            "version": "3.11.7150.0"
+        },
+        {
+            "name": "Microsoft .NET Runtime - 6.0.28 (x64)",
+            "version": "48.112.10439"
+        },
+        {
+            "name": "Universal CRT Tools x64",
+            "version": "10.1.22621.2428"
+        },
+        {
+            "name": "Microsoft Windows Desktop Runtime - 9.0.7 (x64)",
+            "version": "72.28.35985"
+        },
+        {
+            "name": "Python 3.12.0 Executables (64-bit)",
+            "version": "3.12.150.0"
+        },
+        {
+            "name": "Microsoft ODBC Driver 17 for SQL Server",
+            "version": "17.10.5.1"
+        },
+        {
+            "name": "Application Verifier x64 External Package (DesktopEditions)",
+            "version": "10.1.22621.2428"
+        },
+        {
+            "name": "SQL Server 2022 DMF",
+            "version": "16.0.1000.6"
+        },
+        {
+            "name": "Microsoft System CLR Types for SQL Server 2019",
+            "version": "15.0.2000.5"
+        },
+        {
+            "name": "Python 3.10.11 pip Bootstrap (64-bit)",
+            "version": "3.10.11150.0"
+        },
+        {
+            "name": "Python 3.12.0 Documentation (64-bit)",
+            "version": "3.12.150.0"
+        },
+        {
+            "name": "vs_minshellinteropx64msi",
+            "version": "17.8.34129"
+        },
+        {
+            "name": "Python 3.10.11 Tcl/Tk Support (64-bit)",
+            "version": "3.10.11150.0"
+        },
+        {
+            "name": "Microsoft SQL Server 2022 RsFx Driver",
+            "version": "16.0.1000.6"
+        },
+        {
+            "name": "RealVNC Viewer 7.15.1",
+            "version": "7.15.1.18"
+        },
+        {
+            "name": "Python 3.11.7 Utility Scripts (64-bit)",
+            "version": "3.11.7150.0"
+        },
+        {
+            "name": "Windows App Certification Kit Native Components",
+            "version": "10.1.22621.2428"
+        },
+        {
+            "name": "Python 3.10.11 Standard Library (64-bit)",
+            "version": "3.10.11150.0"
+        },
+        {
+            "name": "Azure Data Studio",
+            "version": "1.47.1"
+        },
+        {
+            "name": "SQL Server 2022 Database Engine Services",
+            "version": "16.0.1000.6"
+        },
+        {
+            "name": "Microsoft .NET AppHost Pack - 8.0.1 (x64_x86)",
+            "version": "64.4.5793"
+        },
+        {
+            "name": "Python 3.11.7 pip Bootstrap (64-bit)",
+            "version": "3.11.7150.0"
+        },
+        {
+            "name": "Python 3.11.7 Core Interpreter (64-bit)",
+            "version": "3.11.7150.0"
+        },
+        {
+            "name": "SQL Server 2022 Common Files",
+            "version": "16.0.1000.6"
+        },
+        {
+            "name": "Microsoft.NET.Workload.Emscripten.Current.Manifest (x64)",
+            "version": "64.4.5649"
+        },
+        {
+            "name": "Python 3.12.0 Core Interpreter (64-bit)",
+            "version": "3.12.150.0"
+        },
+        {
+            "name": "Python 3.10.11 Development Libraries (64-bit)",
+            "version": "3.10.11150.0"
+        },
+        {
+            "name": "Python 3.12.0 Tcl/Tk Support (64-bit)",
+            "version": "3.12.150.0"
+        },
+        {
+            "name": "Microsoft Visual Studio Installer",
+            "version": "3.9.2164.57262"
+        },
+        {
+            "name": "SQL Server 2022 Shared Management Objects",
+            "version": "16.0.1000.6"
+        },
+        {
+            "name": "Microsoft Windows Desktop Runtime - 8.0.12 (x64)",
+            "version": "64.48.26178"
+        },
+        {
+            "name": "SQL Server 2022 Connection Info",
+            "version": "16.0.1000.6"
+        },
+        {
+            "name": "TightVNC",
+            "version": "2.8.85.0"
+        },
+        {
+            "name": "Microsoft .NET Host FX Resolver - 6.0.28 (x64)",
+            "version": "48.112.10439"
+        },
+        {
+            "name": "Dell Connected Service Delivery",
+            "version": "1.1.2.0"
+        },
+        {
+            "name": "Microsoft Analysis Services OLE DB Provider",
+            "version": "16.0.5143.0"
+        },
+        {
+            "name": "MyDell Application Management",
+            "version": "3.1.28.1"
+        },
+        {
+            "name": "Python 3.10.11 Utility Scripts (64-bit)",
+            "version": "3.10.11150.0"
+        },
+        {
+            "name": "SQL Server 2022 Batch Parser",
+            "version": "16.0.1000.6"
+        },
+        {
+            "name": "Microsoft.NET.Workload.Mono.Toolchain.Current.Manifest (x64)",
+            "version": "64.4.5765"
+        },
+        {
+            "name": "Microsoft Visual C++ 2022 X64 Additional Runtime - 14.44.35211",
+            "version": "14.44.35211"
+        },
+        {
+            "name": "SQL Server 2022 Common Files",
+            "version": "16.0.1000.6"
+        },
+        {
+            "name": "Dell SupportAssist",
+            "version": "5.2.7.3508"
+        },
+        {
+            "name": "Python 3.10.11 Documentation (64-bit)",
+            "version": "3.10.11150.0"
+        },
+        {
+            "name": "Microsoft Visual Studio Tools for Applications 2019 x64 Hosting Support",
+            "version": "16.0.31110"
+        },
+        {
+            "name": "Microsoft .NET AppHost Pack - 8.0.1 (x64)",
+            "version": "64.4.5793"
+        },
+        {
+            "name": "Office 16 Click-to-Run Extensibility Component",
+            "version": "16.0.20131.20044"
+        },
+        {
+            "name": "Office 16 Click-to-Run Localization Component",
+            "version": "16.0.20131.20068"
+        },
+        {
+            "name": "SQL Server 2022 XEvent",
+            "version": "16.0.1000.6"
+        },
+        {
+            "name": "WireGuard",
+            "version": "1.1"
+        },
+        {
+            "name": "Microsoft .NET Host FX Resolver - 8.0.1 (x64)",
+            "version": "64.4.5793"
+        },
+        {
+            "name": "Microsoft .NET Toolset 8.0.101 (x64)",
+            "version": "32.6.64801"
+        },
+        {
+            "name": "vs_communityx64msi",
+            "version": "17.8.34205"
+        },
+        {
+            "name": "Python 3.10.11 Test Suite (64-bit)",
+            "version": "3.10.11150.0"
+        },
+        {
+            "name": "SQL Server 2022 Shared Management Objects Extensions",
+            "version": "16.0.1000.6"
+        },
+        {
+            "name": "Microsoft Windows Desktop Runtime - 8.0.1 (x64)",
+            "version": "64.4.5797"
+        },
+        {
+            "name": "Microsoft .NET Standard Targeting Pack - 2.1.0 (x64)",
+            "version": "24.0.28113"
+        },
+        {
+            "name": "Python 3.11.7 Tcl/Tk Support (64-bit)",
+            "version": "3.11.7150.0"
+        },
+        {
+            "name": "Microsoft VSS Writer for SQL Server 2022",
+            "version": "16.0.1000.6"
+        },
+        {
+            "name": "MyDell Customer Connect",
+            "version": "3.1.70.1"
+        },
+        {
+            "name": "IIS Express Application Compatibility Database for x86",
+            "version": ""
+        },
+        {
+            "name": "Microsoft Visual C++ 2022 X64 Debug Runtime - 14.38.33135",
+            "version": "14.38.33135"
+        },
+        {
+            "name": "Microsoft.NET.Sdk.Android.Manifest-8.0.100 (x64)",
+            "version": "34.0.43"
+        },
+        {
+            "name": "Windows Subsystem for Linux",
+            "version": "2.0.14.0"
+        },
+        {
+            "name": "Microsoft.NET.Workload.Emscripten.net7.Manifest (x64)",
+            "version": "64.4.5649"
+        },
+        {
+            "name": "Dell Connected Service Delivery SubAgent",
+            "version": "1.0.0.0"
+        },
+        {
+            "name": "Microsoft ASP.NET Core Module V2 for IIS Express",
+            "version": "18.0.23305.0"
+        },
+        {
+            "name": "SQL Server 2022 XEvent",
+            "version": "16.0.1000.6"
+        },
+        {
+            "name": "Microsoft.NET.Sdk.MacCatalyst.Manifest-8.0.100 (x64)",
+            "version": "17.2.8004"
+        },
+        {
+            "name": "Microsoft SQL Server 2022 Setup (English)",
+            "version": "16.0.1000.6"
+        },
+        {
+            "name": "Microsoft.NET.Workload.Mono.Toolchain.net6.Manifest (x64)",
+            "version": "64.4.5765"
+        },
+        {
+            "name": "VS JIT Debugger",
+            "version": "17.0.125.0"
+        },
+        {
+            "name": "Microsoft .NET Host - 8.0.12 (x64)",
+            "version": "64.48.26165"
+        },
+        {
+            "name": "SQL Server 2022 Database Engine Services",
+            "version": "16.0.1000.6"
+        },
+        {
+            "name": "Microsoft Update Health Tools",
+            "version": "5.72.0.0"
+        },
+        {
+            "name": "vs_minshellx64msi",
+            "version": "17.8.34205"
+        },
+        {
+            "name": "Microsoft .NET Host FX Resolver - 8.0.12 (x64)",
+            "version": "64.48.26165"
+        },
+        {
+            "name": "RealVNC Connect 8.2.2",
+            "version": "8.2.2.58"
+        },
+        {
+            "name": "Microsoft .NET Host - 6.0.28 (x64)",
+            "version": "48.112.10439"
+        },
+        {
+            "name": "Microsoft Web Deploy 4.0",
+            "version": "10.0.7421"
+        },
+        {
+            "name": "icecap_collection_x64",
+            "version": "17.8.34205"
+        },
+        {
+            "name": "Windows SDK DirectX x64 Remote",
+            "version": "10.1.22621.2428"
+        },
+        {
+            "name": "Microsoft.NET.Workload.Mono.Toolchain.net7.Manifest (x64)",
+            "version": "64.4.5765"
+        },
+        {
+            "name": "Python 3.11.7 Documentation (64-bit)",
+            "version": "3.11.7150.0"
+        },
+        {
+            "name": "Dell Update for Windows Universal",
+            "version": "4.8.0"
+        },
+        {
+            "name": "VS Script Debugging Common",
+            "version": "17.0.125.0"
+        },
+        {
+            "name": "Python 3.10.11 Core Interpreter (64-bit)",
+            "version": "3.10.11150.0"
+        },
+        {
+            "name": "IIS 10.0 Express",
+            "version": "10.0.08412"
+        },
+        {
+            "name": "SQL Server 2022 Database Engine Shared",
+            "version": "16.0.1000.6"
+        },
+        {
+            "name": "Microsoft.NET.Sdk.macOS.Manifest-8.0.100 (x64)",
+            "version": "14.2.8004"
+        },
+        {
+            "name": "SQL Server 2022 DMF",
+            "version": "16.0.1000.6"
+        },
+        {
+            "name": "Python 3.11.7 Development Libraries (64-bit)",
+            "version": "3.11.7150.0"
+        },
+        {
+            "name": "Dell Core Services",
+            "version": "1.11.12.0"
+        },
+        {
+            "name": "Microsoft .NET Host - 10.0.11 (x64)",
+            "version": "80.44.56884"
+        },
+        {
+            "name": "vs_Graphics_Singletonx64",
+            "version": "17.8.34205"
+        },
+        {
+            "name": "Dell SupportAssist OS Recovery Plugin for Dell Update",
+            "version": "5.5.16.3"
+        },
+        {
+            "name": "SQL Server 2022 Connection Info",
+            "version": "16.0.1000.6"
+        },
+        {
+            "name": "Microsoft OLE DB Driver for SQL Server",
+            "version": "18.6.7.0"
+        },
+        {
+            "name": "Application Verifier x64 External Package (OnecoreUAP)",
+            "version": "10.1.22621.2428"
+        },
+        {
+            "name": "Python 3.10.11 Executables (64-bit)",
+            "version": "3.10.11150.0"
+        },
+        {
+            "name": "IntelliTraceProfilerProxy",
+            "version": "15.0.21225.01"
+        },
+        {
+            "name": "Microsoft ASP.NET Core Module for IIS Express",
+            "version": "12.2.18292.0"
+        },
+        {
+            "name": "DiagnosticsHub_CollectionService",
+            "version": "17.3.32601"
+        },
+        {
+            "name": "Visual Studio Community 2022",
+            "version": "17.8.6"
+        },
+        {
+            "name": "Brave",
+            "version": "157.1.99.57"
+        },
+        {
+            "name": "Google Chrome",
+            "version": "157.0.8103.52"
+        },
+        {
+            "name": "Copilot",
+            "version": "157.0.4341.42"
+        },
+        {
+            "name": "Microsoft Edge",
+            "version": "157.0.4341.42"
+        },
+        {
+            "name": "Środowisko uruchomieniowe Microsoft Edge WebView2",
+            "version": "157.0.4341.42"
+        },
+        {
+            "name": "Microsoft Help Viewer 2.3",
+            "version": "2.3.28307"
+        },
+        {
+            "name": "PyCharm Community Edition 2023.3.4",
+            "version": "233.14475.56"
+        },
+        {
+            "name": "WinSCP 6.5.5",
+            "version": "6.5.5"
+        },
+        {
+            "name": "Visual C++ Library CRT Appx Package",
+            "version": "14.38.33130"
+        },
+        {
+            "name": "Visual C++ Library CRT Appx Resource Package",
+            "version": "14.38.33130"
+        },
+        {
+            "name": "Visual C++ Library CRT Desktop Appx Package",
+            "version": "14.38.33130"
+        },
+        {
+            "name": "Windows IoT Extension SDK Contracts",
+            "version": "10.1.22621.2428"
+        },
+        {
+            "name": "WinRT Intellisense UAP - en-us",
+            "version": "10.1.22621.2428"
+        },
+        {
+            "name": "Microsoft Visual C++ 2015-2022 Redistributable (x86) - 14.44.35211",
+            "version": "14.44.35211.0"
+        },
+        {
+            "name": "Visual Studio 2017 Isolated Shell for SSMS",
+            "version": "15.0.28308.421"
+        },
+        {
+            "name": "Windows Mobile Extension SDK Contracts",
+            "version": "10.1.22621.2428"
+        },
+        {
+            "name": "vs_minshellmsires",
+            "version": "17.8.34205"
+        },
+        {
+            "name": "Microsoft .NET CoreRuntime SDK",
+            "version": "1.1.27004.0"
+        },
+        {
+            "name": "Microsoft .NET Framework 4.7.2 Targeting Pack",
+            "version": "4.7.03062"
+        },
+        {
+            "name": "vs_CoreEditorFonts",
+            "version": "17.7.40001"
+        },
+        {
+            "name": "Microsoft .NET Framework Cumulative Intellisense Pack for Visual Studio (ENU)",
+            "version": "4.8.09037"
+        },
+        {
+            "name": "Visual C++ Library CRT Desktop Appx Package",
+            "version": "14.38.33130"
+        },
+        {
+            "name": "WPTx64 (OnecoreUAP)",
+            "version": "10.1.22621.2428"
+        },
+        {
+            "name": "Universal CRT Redistributable",
+            "version": "10.1.22621.2428"
+        },
+        {
+            "name": "ClickOnce Bootstrapper Package for Microsoft .NET Framework",
+            "version": "4.8.09037"
+        },
+        {
+            "name": "Visual C++ Library CRT Desktop Appx Package",
+            "version": "14.38.33130"
+        },
+        {
+            "name": "Windows SDK",
+            "version": "10.1.22621.2428"
+        },
+        {
+            "name": "Windows Mobile Extension SDK",
+            "version": "10.1.22621.2428"
+        },
+        {
+            "name": "Dell Optimizer",
+            "version": "4.1.1103.0"
+        },
+        {
+            "name": "Microsoft .NET Framework 4.6 Targeting Pack",
+            "version": "4.6.00081"
+        },
+        {
+            "name": "Microsoft Visual C++ 2022 X86 Debug Runtime - 14.38.33135",
+            "version": "14.38.33135"
+        },
+        {
+            "name": "Windows SDK Desktop Libs arm64",
+            "version": "10.1.22621.2428"
+        },
+        {
+            "name": "Windows SDK for Windows Store Apps DirectX x86 Remote",
+            "version": "10.1.22621.2428"
+        },
+        {
+            "name": "WinRT Intellisense IoT - en-us",
+            "version": "10.1.22621.2428"
+        },
+        {
+            "name": "Windows SDK Desktop Headers x64",
+            "version": "10.1.22621.2428"
+        },
+        {
+            "name": "Dell SupportAssist Remediation",
+            "version": "5.5.10.19019"
+        },
+        {
+            "name": "WebAdvisor firmy McAfee",
+            "version": "4.1.2.133"
+        },
+        {
+            "name": "Microsoft .NET Framework 4.8 Targeting Pack (Polski)",
+            "version": "4.8.03761"
+        },
+        {
+            "name": "Microsoft .NET Framework 4.7.2 Targeting Pack (Polski)",
+            "version": "4.7.03062"
+        },
+        {
+            "name": "vs_minshellmsires",
+            "version": "17.8.34205"
+        },
+        {
+            "name": "vs_communitymsires",
+            "version": "17.8.34205"
+        },
+        {
+            "name": "Python Launcher",
+            "version": "3.12.2150.0"
+        },
+        {
+            "name": "Microsoft SQL Server Management Studio - 19.3",
+            "version": "19.3.4.0"
+        },
+        {
+            "name": "Windows SDK Desktop Libs x86",
+            "version": "10.1.22621.2428"
+        },
+        {
+            "name": "Entity Framework 6.2.0 Tools  for Visual Studio 2022",
+            "version": "6.2.0.0"
+        },
+        {
+            "name": "Windows App Certification Kit x64",
+            "version": "10.1.22621.2428"
+        },
+        {
+            "name": "Microsoft .NET Host - 8.0.1 (x86)",
+            "version": "64.4.5793"
+        },
+        {
+            "name": "vs_tipsmsi",
+            "version": "17.8.34129"
+        },
+        {
+            "name": "Dell SupportAssist OS Recovery Plugin for Dell Update",
+            "version": "5.5.16.3"
+        },
+        {
+            "name": "icecap_collectionresourcesx64",
+            "version": "17.8.34205"
+        },
+        {
+            "name": "Pakiet zbiorczy funkcji IntelliSense platformy Microsoft .NET Framework Cumulative Intellisense Pack dla programu Visual Studio (Polski)",
+            "version": "4.8.09037"
+        },
+        {
+            "name": "WinRT Intellisense PPI - Other Languages",
+            "version": "10.1.22621.2428"
+        },
+        {
+            "name": "Visual C++ Library CRT ARM64 Appx Package",
+            "version": "14.38.33130"
+        },
+        {
+            "name": "Microsoft .NET CoreRuntime For CoreCon",
+            "version": "1.0.0.0"
+        },
+        {
+            "name": "vs_clickoncebootstrappermsi",
+            "version": "17.8.34205"
+        },
+        {
+            "name": "Universal General MIDI DLS Extension SDK",
+            "version": "10.1.22621.2428"
+        },
+        {
+            "name": "vs_githubprotocolhandlermsi",
+            "version": "17.8.34129"
+        },
+        {
+            "name": "Windows SDK Desktop Headers x86",
+            "version": "10.1.22621.2428"
+        },
+        {
+            "name": "Microsoft .NET Runtime - 8.0.1 (x86)",
+            "version": "64.4.5793"
+        },
+        {
+            "name": "MSI Development Tools",
+            "version": "10.1.22621.2428"
+        },
+        {
+            "name": "WPT Redistributables",
+            "version": "10.1.22621.2428"
+        },
+        {
+            "name": "WinRT Intellisense IoT - Other Languages",
+            "version": "10.1.22621.2428"
+        },
+        {
+            "name": "Windows SDK Desktop Headers arm",
+            "version": "10.1.22621.2428"
+        },
+        {
+            "name": "Windows Team Extension SDK Contracts",
+            "version": "10.1.22621.2428"
+        },
+        {
+            "name": "WPTx64 (DesktopEditions)",
+            "version": "10.1.22621.2428"
+        },
+        {
+            "name": "Microsoft Windows Desktop Runtime - 9.0.7 (x64)",
+            "version": "9.0.7.35017"
+        },
+        {
+            "name": "Windows SDK Desktop Headers arm64",
+            "version": "10.1.22621.2428"
+        },
+        {
+            "name": "Windows SDK AddOn",
+            "version": "10.1.0.0"
+        },
+        {
+            "name": "Cirrus High Definition Audio Driver",
+            "version": "2.2.62"
+        },
+        {
+            "name": "Windows SDK Signing Tools",
+            "version": "10.1.22621.2428"
+        },
+        {
+            "name": "WinAppDeploy",
+            "version": "10.1.22621.2428"
+        },
+        {
+            "name": "vs_Graphics_Singletonx86",
+            "version": "17.8.34205"
+        },
+        {
+            "name": "SQL Server Management Studio",
+            "version": "19.3.4.0"
+        },
+        {
+            "name": "icecap_collectionresources",
+            "version": "17.8.34205"
+        },
+        {
+            "name": "Windows SDK Desktop Libs x64",
+            "version": "10.1.22621.2428"
+        },
+        {
+            "name": "windows_toolscorepkg",
+            "version": "17.8.34205"
+        },
+        {
+            "name": "Microsoft .NET Host FX Resolver - 8.0.1 (x86)",
+            "version": "64.4.5793"
+        },
+        {
+            "name": "icecap_collectionresourcesx64",
+            "version": "17.8.34205"
+        },
+        {
+            "name": "Windows SDK for Windows Store Apps Headers",
+            "version": "10.1.22621.2428"
+        },
+        {
+            "name": "WinRT Intellisense Mobile - en-us",
+            "version": "10.1.22621.2428"
+        },
+        {
+            "name": "Universal CRT Headers Libraries and Sources",
+            "version": "10.1.22621.2428"
+        },
+        {
+            "name": "vs_clickoncesigntoolmsi",
+            "version": "17.8.34129"
+        },
+        {
+            "name": "Windows SDK ARM Desktop Tools",
+            "version": "10.1.22621.2428"
+        },
+        {
+            "name": "Microsoft NetStandard SDK",
+            "version": "15.0.51105"
+        },
+        {
+            "name": "WinRT Intellisense Desktop - en-us",
+            "version": "10.1.22621.2428"
+        },
+        {
+            "name": "Windows SDK EULA",
+            "version": "10.1.22621.2428"
+        },
+        {
+            "name": "Windows SDK for Windows Store Apps Libs",
+            "version": "10.1.22621.2428"
+        },
+        {
+            "name": "Windows Software Development Kit - Windows 10.0.22621.2428",
+            "version": "10.1.22621.2428"
+        },
+        {
+            "name": "Kits Configuration Installer",
+            "version": "10.1.22621.2428"
+        },
+        {
+            "name": "WinRT Intellisense Desktop - Other Languages",
+            "version": "10.1.22621.2428"
+        },
+        {
+            "name": "Windows SDK Modern Versioned Developer Tools",
+            "version": "10.1.22621.2428"
+        },
+        {
+            "name": "Microsoft ASP.NET Diagnostic Pack for Visual Studio",
+            "version": "17.8.358.6298"
+        },
+        {
+            "name": "Microsoft Windows Desktop Targeting Pack - 8.0.1 (x86)",
+            "version": "64.4.5797"
+        },
+        {
+            "name": "Microsoft Visual C++ 2013 x86 Minimum Runtime - 12.0.40664",
+            "version": "12.0.40664"
+        },
+        {
+            "name": "vcpp_crt.redist.clickonce",
+            "version": "14.38.33135"
+        },
+        {
+            "name": "Microsoft TestPlatform SDK Local Feed",
+            "version": "17.0.0.5175695"
+        },
+        {
+            "name": "Dell Digital Delivery Services",
+            "version": "5.6.3.0"
+        },
+        {
+            "name": "vs_FileTracker_Singleton",
+            "version": "17.8.34205"
+        },
+        {
+            "name": "Microsoft ASP.NET Core 8.0.1 Shared Framework (x86)",
+            "version": "8.0.1.23580"
+        },
+        {
+            "name": "Windows SDK for Windows Store Apps Contracts",
+            "version": "10.1.22621.2428"
+        },
+        {
+            "name": "vs_clickoncebootstrappermsires",
+            "version": "17.8.34129"
+        },
+        {
+            "name": "vs_communitymsires",
+            "version": "17.8.34205"
+        },
+        {
+            "name": "Microsoft Analysis Services OLE DB Provider",
+            "version": "16.0.5143.0"
+        },
+        {
+            "name": "Universal CRT Tools x86",
+            "version": "10.1.22621.2428"
+        },
+        {
+            "name": "Visual C++ Library CRT Appx Resource Package",
+            "version": "14.38.33130"
+        },
+        {
+            "name": "Windows SDK for Windows Store Apps Tools",
+            "version": "10.1.22621.2428"
+        },
+        {
+            "name": "Windows SDK DirectX x86 Remote",
+            "version": "10.1.22621.2428"
+        },
+        {
+            "name": "Microsoft Visual C++ 2022 X86 Minimum Runtime - 14.44.35211",
+            "version": "14.44.35211"
+        },
+        {
+            "name": "Windows SDK for Windows Store Apps",
+            "version": "10.1.22621.2428"
+        },
+        {
+            "name": "Microsoft .NET Framework 4.8 SDK",
+            "version": "4.8.03928"
+        },
+        {
+            "name": "vs_communitysharedmsi",
+            "version": "17.8.34205"
+        },
+        {
+            "name": "Microsoft Windows Desktop Runtime 10.0.11 (x64)",
+            "version": "10.0.11.50000"
+        },
+        {
+            "name": "Microsoft Help Viewer 2.3",
+            "version": "2.3.28307"
+        },
+        {
+            "name": "SDK ARM Additions",
+            "version": "10.1.22621.2428"
+        },
+        {
+            "name": "Windows SDK Desktop Libs arm",
+            "version": "10.1.22621.2428"
+        },
+        {
+            "name": "icecap_collection_neutral",
+            "version": "17.8.34205"
+        },
+        {
+            "name": "Microsoft Visual C++ 2013 Redistributable (x86) - 12.0.40664",
+            "version": "12.0.40664.0"
+        },
+        {
+            "name": "Microsoft Visual Studio Setup WMI Provider",
+            "version": "3.8.2091.34612"
+        },
+        {
+            "name": "Microsoft .NET Framework 4.8 SDK (Polski)",
+            "version": "4.8.03761"
+        },
+        {
+            "name": "Windows SDK for Windows Store Managed Apps Libs",
+            "version": "10.1.22621.2428"
+        },
+        {
+            "name": "vs_vswebprotocolselectormsires",
+            "version": "17.8.34129"
+        },
+        {
+            "name": "Visual C++ Library CRT Appx Package",
+            "version": "14.38.33130"
+        },
+        {
+            "name": "WinRT Intellisense PPI - en-us",
+            "version": "10.1.22621.2428"
+        },
+        {
+            "name": "Windows SDK Desktop Tools x86",
+            "version": "10.1.22621.2428"
+        },
+        {
+            "name": "Microsoft .NET Framework 4.8 Targeting Pack (ENU)",
+            "version": "4.8.03761"
+        },
+        {
+            "name": "vs_filehandler_x86",
+            "version": "17.8.34205"
+        },
+        {
+            "name": "Windows SDK Modern Non-Versioned Developer Tools",
+            "version": "10.1.22621.2428"
+        },
+        {
+            "name": "Microsoft Windows Desktop Runtime - 8.0.12 (x64)",
+            "version": "8.0.12.34404"
+        },
+        {
+            "name": "Windows SDK Desktop Tools arm64",
+            "version": "10.1.22621.2428"
+        },
+        {
+            "name": "vs_vswebprotocolselectormsi",
+            "version": "17.8.34129"
+        },
+        {
+            "name": "Windows Desktop Extension SDK",
+            "version": "10.1.22621.2428"
+        },
+        {
+            "name": "Microsoft .NET Framework 4.7.2 Targeting Pack (ENU)",
+            "version": "4.7.03062"
+        },
+        {
+            "name": "SDK ARM Redistributables",
+            "version": "10.1.22621.2428"
+        },
+        {
+            "name": "Microsoft Windows Desktop Runtime - 8.0.1 (x86)",
+            "version": "64.4.5797"
+        },
+        {
+            "name": "Windows Desktop Extension SDK Contracts",
+            "version": "10.1.22621.2428"
+        },
+        {
+            "name": "Microsoft .NET Framework 4.8 Targeting Pack",
+            "version": "4.8.03761"
+        },
+        {
+            "name": "vcpp_crt.redist.clickonce",
+            "version": "14.38.33135"
+        },
+        {
+            "name": "Microsoft Windows Desktop Runtime - 6.0.28 (x64)",
+            "version": "6.0.28.33420"
+        },
+        {
+            "name": "Windows App Certification Kit x64 (OnecoreUAP)",
+            "version": "10.1.22621.2428"
+        },
+        {
+            "name": "icecap_collectionresources",
+            "version": "17.8.34205"
+        },
+        {
+            "name": "WinRT Intellisense UAP - Other Languages",
+            "version": "10.1.22621.2428"
+        },
+        {
+            "name": "Microsoft .NET Targeting Pack - 8.0.1 (x86)",
+            "version": "64.4.5793"
+        },
+        {
+            "name": "Microsoft Visual C++ 2022 X86 Additional Runtime - 14.44.35211",
+            "version": "14.44.35211"
+        },
+        {
+            "name": "Windows Team Extension SDK",
+            "version": "10.1.22621.2428"
+        },
+        {
+            "name": "Windows SDK for Windows Store Apps Metadata",
+            "version": "10.1.22621.2428"
+        },
+        {
+            "name": "Windows IoT Extension SDK",
+            "version": "10.1.22621.2428"
+        },
+        {
+            "name": "Windows SDK Redistributables",
+            "version": "10.1.22621.2428"
+        },
+        {
+            "name": "Microsoft UniversalWindowsPlatform SDK",
+            "version": "15.9.16"
+        },
+        {
+            "name": "Microsoft Visual Studio Setup Configuration",
+            "version": "3.8.2091.34612"
+        },
+        {
+            "name": "IntelliTraceProfilerProxy",
+            "version": "15.0.21225.01"
+        },
+        {
+            "name": "vs_devenvsharedmsi",
+            "version": "17.8.34129"
+        },
+        {
+            "name": "Integration Services",
+            "version": "16.0.5395.0"
+        },
+        {
+            "name": "Windows SDK Facade Windows WinMD Versioned",
+            "version": "10.1.22621.2428"
+        },
+        {
+            "name": "Microsoft Visual C++ 2013 x86 Additional Runtime - 12.0.40664",
+            "version": "12.0.40664"
+        },
+        {
+            "name": "Microsoft Visual C++ 2015-2022 Redistributable (x64) - 14.44.35211",
+            "version": "14.44.35211.0"
+        },
+        {
+            "name": "Windows App Certification Kit SupportedApiList x86",
+            "version": "10.1.22621.2428"
+        },
+        {
+            "name": "Universal CRT Extension SDK",
+            "version": "10.1.22621.2428"
+        },
+        {
+            "name": "Microsoft ASP.NET Core 8.0.1 Targeting Pack (x86)",
+            "version": "8.0.1.23580"
+        },
+        {
+            "name": "SSMS Post Install Tasks",
+            "version": "19.3.4.0"
+        },
+        {
+            "name": "MyDell",
+            "version": "3.1.179.1"
+        },
+        {
+            "name": "vs_minshellsharedmsi",
+            "version": "17.8.34205"
+        },
+        {
+            "name": "vs_minshellinteropsharedmsi",
+            "version": "17.8.34205"
+        },
+        {
+            "name": "Microsoft Visual Studio Tools for Applications 2019 x86 Hosting Support",
+            "version": "16.0.31110"
+        },
+        {
+            "name": "vs_SQLClickOnceBootstrappermsi",
+            "version": "17.8.34129"
+        },
+        {
+            "name": "Windows SDK Desktop Tools x64",
+            "version": "10.1.22621.2428"
+        },
+        {
+            "name": "Microsoft .NET Native SDK",
+            "version": "15.0.24211.07"
+        },
+        {
+            "name": "SQL Server Management Studio Language Pack - English",
+            "version": "19.3.4.0"
+        },
+        {
+            "name": "vs_filehandler_amd64",
+            "version": "17.8.34205"
+        },
+        {
+            "name": "Microsoft Visual Studio Tools for Applications 2019",
+            "version": "16.0.31110"
+        },
+        {
+            "name": "vs_BlendMsi",
+            "version": "17.8.34129"
+        },
+        {
+            "name": "Dell Connected Service Delivery SubAgent",
+            "version": "1.0.0.0"
+        },
+        {
+            "name": "Browser for SQL Server 2022",
+            "version": "16.0.1000.6"
+        },
+        {
+            "name": "VS Immersive Activate Helper",
+            "version": "17.0.125.0"
+        },
+        {
+            "name": "Discord",
+            "version": "1.0.9268"
+        },
+        {
+            "name": "Zdjęcia",
+            "version": "26.198.1011.0006"
+        },
+        {
+            "name": "Microsoft OneDrive",
+            "version": "26.198.1011.0006"
+        },
+        {
+            "name": "Opera GX Stable 138.0.6044.65",
+            "version": "138.0.6044.65"
+        },
+        {
+            "name": "Postman x86_64 11.19.0",
+            "version": "11.19.0"
+        },
+        {
+            "name": "Slack",
+            "version": "4.53.287"
+        },
+        {
+            "name": "Microsoft Visual Studio Code (User)",
+            "version": "1.100.3"
+        },
+        {
+            "name": "Python 3.10.11 (64-bit)",
+            "version": "3.10.11150.0"
+        },
+        {
+            "name": "Python 3.12.0 (64-bit)",
+            "version": "3.12.150.0"
+        },
+        {
+            "name": "Python 3.11.7 (64-bit)",
+            "version": "3.11.7150.0"
+        }
+    ]
+}
