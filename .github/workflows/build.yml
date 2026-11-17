@@ -1,4 +1,3 @@
-
 name: Build Application Inventory
 
 on:
@@ -12,15 +11,20 @@ permissions:
 
 jobs:
   build:
-    name: Build for ${{ matrix.os }}
+    name: Build for ${{ matrix.name }}
 
     strategy:
       fail-fast: false
       matrix:
-        os:
-          - windows-latest
-          - ubuntu-latest
-          - macos-latest
+        include:
+          - os: windows-latest
+            name: windows
+          - os: ubuntu-latest
+            name: linux
+          - os: macos-13       # Intel (x86_64)
+            name: macos-intel
+          - os: macos-14       # Apple Silicon (arm64)
+            name: macos-arm
 
     runs-on: ${{ matrix.os }}
 
@@ -40,28 +44,66 @@ jobs:
         run: python -m PyInstaller --clean --noconfirm --onefile --name inwentaryzacja inwentaryzacja.py
 
       - name: Upload Windows executable
-        if: runner.os == 'Windows'
+        if: matrix.name == 'windows'
         uses: actions/upload-artifact@v4
         with:
           name: inwentaryzacja-windows
           path: dist/inwentaryzacja.exe
 
-      - name: Upload macOS executable
-        if: runner.os == 'macOS'
-        uses: actions/upload-artifact@v4
-        with:
-          name: inwentaryzacja-macos
-          path: dist/inwentaryzacja
-
       - name: Upload Linux executable
-        if: runner.os == 'Linux'
+        if: matrix.name == 'linux'
         uses: actions/upload-artifact@v4
         with:
           name: inwentaryzacja-linux
           path: dist/inwentaryzacja
+
+      - name: Upload macOS Intel executable
+        if: matrix.name == 'macos-intel'
+        uses: actions/upload-artifact@v4
+        with:
+          name: inwentaryzacja-macos-intel
+          path: dist/inwentaryzacja
+
+      - name: Upload macOS Apple Silicon executable
+        if: matrix.name == 'macos-arm'
+        uses: actions/upload-artifact@v4
+        with:
+          name: inwentaryzacja-macos-arm
+          path: dist/inwentaryzacja
+
+  universal-macos:
+    name: Merge macOS binaries into universal2
+    needs: build
+    runs-on: macos-14
+    steps:
+      - name: Download Intel binary
+        uses: actions/download-artifact@v4
+        with:
+          name: inwentaryzacja-macos-intel
+          path: intel
+
+      - name: Download Apple Silicon binary
+        uses: actions/download-artifact@v4
+        with:
+          name: inwentaryzacja-macos-arm
+          path: arm
+
+      - name: Merge with lipo
+        run: |
+          chmod +x intel/inwentaryzacja arm/inwentaryzacja
+          lipo -create -output inwentaryzacja-universal intel/inwentaryzacja arm/inwentaryzacja
+          chmod +x inwentaryzacja-universal
+          lipo -info inwentaryzacja-universal
+
+      - name: Upload universal binary
+        uses: actions/upload-artifact@v4
+        with:
+          name: inwentaryzacja-macos-universal
+          path: inwentaryzacja-universal
+
   release:
     name: Publish GitHub Release
-    needs: build
+    needs: [build, universal-macos]
     runs-on: ubuntu-latest
     if: startsWith(github.ref, 'refs/tags/v')
     permissions:
@@ -85,9 +127,9 @@ jobs:
           name: Inwentaryzacja ${{ github.ref_name }}
           files: |
             release-files/inwentaryzacja-windows/inwentaryzacja.exe
-            release-files/inwentaryzacja-macos/inwentaryzacja
             release-files/inwentaryzacja-linux/inwentaryzacja
+            release-files/inwentaryzacja-macos-intel/inwentaryzacja
+            release-files/inwentaryzacja-macos-arm/inwentaryzacja
+            release-files/inwentaryzacja-macos-universal/inwentaryzacja-universal
           generate_release_notes: true
           fail_on_unmatched_files: true
-
-
