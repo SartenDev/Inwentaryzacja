@@ -83,6 +83,7 @@ def macOS():
             version = ""
             try:
                 with open(app / "Contents" / "Info.plist", "rb") as f:
+
                     info = plistlib.load(f)
                 version = str(
                     info.get("CFBundleShortVersionString")
